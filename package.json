@@ -1,0 +1,29 @@
+{
+  "name": "myskill_petapi",
+  "version": "1.0.0",
+  "description": "mocha chai petStore example",
+  "main": "index.js",
+  "scripts": {
+    "welcome": "mocha test/api/welcomeTest.js",
+    "test get": "mocha test/api/getExample.js",
+    "test post": "mocha test/api/postExample.js",
+    "test chai": "mocha test/api/chaiAssert.js"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/hanakamila/mySkill_petAPI.git"
+  },
+  "author": "hana",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/hanakamila/mySkill_petAPI/issues"
+  },
+  "homepage": "https://github.com/hanakamila/mySkill_petAPI#readme",
+  "dependencies": {
+    "mochawesome": "^7.1.3"
+  },
+  "devDependencies": {
+    "chai": "^4.3.10",
+    "supertest": "^6.3.3"
+  }
+}
